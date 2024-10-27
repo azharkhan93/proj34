@@ -1,0 +1,47 @@
+.h {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;        
+    height: 90vh;              
+    background-color: gray;   
+    padding-left: 2rem;         
+  }
+  
+  .h-contents {
+    display: flex;
+    flex-direction: column;     
+    justify-content: flex-start; 
+    align-items: flex-start;    
+    max-width: 600px;           
+  }
+  
+  .h-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;                
+    margin-bottom: 1rem;       
+  }
+  
+  .h-paragraph {
+    font-size: 1.25rem;
+    color: white;
+    margin-bottom: 1.5rem;   
+    line-height: 1.6;
+  }
+  
+  .h-button {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: black;  
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .h-button:hover {
+    background-color: green; 
+  }
